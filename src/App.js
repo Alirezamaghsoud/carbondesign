@@ -28,7 +28,6 @@ function App() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Send email using the emailData object
     console.log('Email data:', emailData);
   };
 
