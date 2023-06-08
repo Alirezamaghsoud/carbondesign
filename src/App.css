@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.email-form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.form-field {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.send-button {
+  background-color: #336699;
+  color: #ffffff;
+}
+
+.send-button:hover {
+  background-color: #204d79;
+}
